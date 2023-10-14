@@ -1,0 +1,118 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+p,
+ul,
+li,
+form {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #21aa65;
+}
+
+header {
+  background-color: #723131;
+  color: #6391b8;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #38a383;
+}
+
+.hero {
+  background-image: url("your-hero-image.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+  color: hsl(335, 60%, 33%);
+}
+
+.feature {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #943737;
+  color: #2b8148;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.testimonial {
+  background-color: #410e2d;
+  padding: 50px;
+}
+
+.testimonial-box {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #227a91;
+}
+
+.contact {
+  background-color: #c1c412;
+  padding: 50px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  background-color: #b83232;
+  color: #1ea848;
+  border: none;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #310c0c;
+  color: #128157;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
